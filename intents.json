@@ -1,0 +1,581 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+      {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price of Bitcoin?",
+        "Current BTC price?",
+        "How much does 1 BTC cost?"
+      ],
+      "responses": [
+        "The current price of Bitcoin is $XX.XX USD.",
+        "As of now, Bitcoin is trading at $XX.XX."
+      ]
+    },
+    {
+      "tag": "conversion",
+      "patterns": [
+        "Convert 1 BTC to USD",
+        "What is 0.5 Bitcoin in dollars?",
+        "BTC to USD exchange rate"
+      ],
+      "responses": [
+        "1 Bitcoin is equivalent to $XXXX USD.",
+        "0.5 BTC is approximately $XXXX."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Show me the historical price of Bitcoin.",
+        "Bitcoin price chart for the last month.",
+        "What was the price of BTC last year?"
+      ],
+      "responses": [
+        "Here's the historical price chart for Bitcoin.",
+        "Bitcoin's price a year ago was $XXXX."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Latest Bitcoin news.",
+        "What's happening in the world of Bitcoin?",
+        "Any updates on BTC?"
+      ],
+      "responses": [
+        "Here are the latest news articles about Bitcoin.",
+        "Bitcoin-related news includes [summary of news articles]."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Is Bitcoin a good investment?",
+        "Should I invest in BTC?",
+        "Investing in Bitcoin, yay or nay?"
+      ],
+      "responses": [
+        "Investing in Bitcoin carries risks, consider consulting a financial advisor.",
+        "Bitcoin's past performance does not guarantee future results."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "Tell me more about Bitcoin.",
+        "What is cryptocurrency?",
+        "Explain blockchain technology."
+      ],
+      "responses": [
+        "Bitcoin is a decentralized digital currency...",
+        "Cryptocurrency operates on a technology called blockchain..."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I'm confused"
+      ],
+      "responses": [
+        "I'm sorry, I didn't get that. Could you please rephrase or ask another question?"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price of Bitcoin?",
+        "Current BTC price?",
+        "How much does 1 BTC cost?"
+      ],
+      "responses": [
+        "The current price of Bitcoin is $XX.XX USD.",
+        "As of now, Bitcoin is trading at $XX.XX."
+      ]
+    },
+    {
+      "tag": "conversion",
+      "patterns": [
+        "Convert 1 BTC to USD",
+        "What is 0.5 Bitcoin in dollars?",
+        "BTC to USD exchange rate"
+      ],
+      "responses": [
+        "1 Bitcoin is equivalent to $XXXX USD.",
+        "0.5 BTC is approximately $XXXX."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Show me the historical price of Bitcoin.",
+        "Bitcoin price chart for the last month.",
+        "What was the price of BTC last year?"
+      ],
+      "responses": [
+        "Here's the historical price chart for Bitcoin.",
+        "Bitcoin's price a year ago was $XXXX."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Latest Bitcoin news.",
+        "What's happening in the world of Bitcoin?",
+        "Any updates on BTC?"
+      ],
+      "responses": [
+        "Here are the latest news articles about Bitcoin.",
+        "Bitcoin-related news includes [summary of news articles]."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Is Bitcoin a good investment?",
+        "Should I invest in BTC?",
+        "Investing in Bitcoin, yay or nay?"
+      ],
+      "responses": [
+        "Investing in Bitcoin carries risks, consider consulting a financial advisor.",
+        "Bitcoin's past performance does not guarantee future results."
+      ]
+    },
+    {
+      "tag": "buy_sell",
+      "patterns": [
+        "How can I buy Bitcoin?",
+        "Where to buy BTC?",
+        "How do I sell my Bitcoins?"
+      ],
+      "responses": [
+        "You can buy Bitcoin on exchanges like Coinbase, Binance, etc.",
+        "Selling Bitcoin can be done through exchanges or peer-to-peer platforms."
+      ]
+    },
+    {
+      "tag": "mining",
+      "patterns": [
+        "What is Bitcoin mining?",
+        "How does mining work?",
+        "Can I mine Bitcoin?"
+      ],
+      "responses": [
+        "Bitcoin mining involves validating transactions on the blockchain...",
+        "Mining requires specialized hardware and consumes a lot of electricity."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How can I secure my Bitcoins?",
+        "Bitcoin security tips",
+        "Is Bitcoin wallet safe?"
+      ],
+      "responses": [
+        "Use hardware wallets or reputable software wallets for better security.",
+        "Keep your private keys secure and use two-factor authentication."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "Tell me more about Bitcoin.",
+        "What is cryptocurrency?",
+        "Explain blockchain technology."
+      ],
+      "responses": [
+        "Bitcoin is a decentralized digital currency...",
+        "Cryptocurrency operates on a technology called blockchain..."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I'm confused"
+      ],
+      "responses": [
+        "I'm sorry, I didn't get that. Could you please rephrase or ask another question?"
+      ]
+    },
+
+ {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price of Bitcoin?",
+        "Current BTC price?",
+        "How much does 1 BTC cost?"
+      ],
+      "responses": [
+        "The current price of Bitcoin is $XX.XX USD.",
+        "As of now, Bitcoin is trading at $XX.XX."
+      ]
+    },
+    {
+      "tag": "conversion",
+      "patterns": [
+        "Convert 1 BTC to USD",
+        "What is 0.5 Bitcoin in dollars?",
+        "BTC to USD exchange rate"
+      ],
+      "responses": [
+        "1 Bitcoin is equivalent to $XXXX USD.",
+        "0.5 BTC is approximately $XXXX."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Show me the historical price of Bitcoin.",
+        "Bitcoin price chart for the last month.",
+        "What was the price of BTC last year?"
+      ],
+      "responses": [
+        "Here's the historical price chart for Bitcoin.",
+        "Bitcoin's price a year ago was $XXXX."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Latest Bitcoin news.",
+        "What's happening in the world of Bitcoin?",
+        "Any updates on BTC?"
+      ],
+      "responses": [
+        "Here are the latest news articles about Bitcoin.",
+        "Bitcoin-related news includes [summary of news articles]."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Is Bitcoin a good investment?",
+        "Should I invest in BTC?",
+        "Investing in Bitcoin, yay or nay?"
+      ],
+      "responses": [
+        "Investing in Bitcoin carries risks, consider consulting a financial advisor.",
+        "Bitcoin's past performance does not guarantee future results."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "Tell me more about Bitcoin.",
+        "What is cryptocurrency?",
+        "Explain blockchain technology."
+      ],
+      "responses": [
+        "Bitcoin is a decentralized digital currency...",
+        "Cryptocurrency operates on a technology called blockchain..."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I'm confused"
+      ],
+      "responses": [
+        "I'm sorry, I didn't get that. Could you please rephrase or ask another question?"
+      ]
+    },
+      {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price of Bitcoin?",
+        "Current BTC price?",
+        "How much does 1 BTC cost?"
+      ],
+      "responses": [
+        "The current price of Bitcoin is $XX.XX USD.",
+        "As of now, Bitcoin is trading at $XX.XX."
+      ]
+    },
+    {
+      "tag": "conversion",
+      "patterns": [
+        "Convert 1 BTC to USD",
+        "What is 0.5 Bitcoin in dollars?",
+        "BTC to USD exchange rate"
+      ],
+      "responses": [
+        "1 Bitcoin is equivalent to $XXXX USD.",
+        "0.5 BTC is approximately $XXXX."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Show me the historical price of Bitcoin.",
+        "Bitcoin price chart for the last month.",
+        "What was the price of BTC last year?"
+      ],
+      "responses": [
+        "Here's the historical price chart for Bitcoin.",
+        "Bitcoin's price a year ago was $XXXX."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Latest Bitcoin news.",
+        "What's happening in the world of Bitcoin?",
+        "Any updates on BTC?"
+      ],
+      "responses": [
+        "Here are the latest news articles about Bitcoin.",
+        "Bitcoin-related news includes [summary of news articles]."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Is Bitcoin a good investment?",
+        "Should I invest in BTC?",
+        "Investing in Bitcoin, yay or nay?"
+      ],
+      "responses": [
+        "Investing in Bitcoin carries risks, consider consulting a financial advisor.",
+        "Bitcoin's past performance does not guarantee future results."
+      ]
+    },
+    {
+      "tag": "buy_sell",
+      "patterns": [
+        "How can I buy Bitcoin?",
+        "Where to buy BTC?",
+        "How do I sell my Bitcoins?"
+      ],
+      "responses": [
+        "You can buy Bitcoin on exchanges like Coinbase, Binance, etc.",
+        "Selling Bitcoin can be done through exchanges or peer-to-peer platforms."
+      ]
+    },
+    {
+      "tag": "mining",
+      "patterns": [
+        "What is Bitcoin mining?",
+        "How does mining work?",
+        "Can I mine Bitcoin?"
+      ],
+      "responses": [
+        "Bitcoin mining involves validating transactions on the blockchain...",
+        "Mining requires specialized hardware and consumes a lot of electricity."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How can I secure my Bitcoins?",
+        "Bitcoin security tips",
+        "Is Bitcoin wallet safe?"
+      ],
+      "responses": [
+        "Use hardware wallets or reputable software wallets for better security.",
+        "Keep your private keys secure and use two-factor authentication."
+      ]
+    },
+    {
+      "tag": "blockchain",
+      "patterns": [
+        "Explain blockchain technology.",
+        "What is the role of blockchain in Bitcoin?",
+        "How does the blockchain work?"
+      ],
+      "responses": [
+        "Blockchain is a distributed ledger technology...",
+        "In Bitcoin, blockchain records all transactions in a decentralized manner..."
+      ]
+    },
+    {
+      "tag": "legal",
+      "patterns": [
+        "Is Bitcoin legal?",
+        "Bitcoin regulations",
+        "Can I use Bitcoin legally?"
+      ],
+      "responses": [
+        "Bitcoin's legality varies by country, consult local regulations.",
+        "Some countries have embraced Bitcoin, while others have restrictions."
+      ]
+    },
+    {
+      "tag": "comparison",
+      "patterns": [
+        "Compare Bitcoin to other cryptocurrencies.",
+        "Bitcoin vs Ethereum",
+        "BTC vs altcoins"
+      ],
+      "responses": [
+        "Bitcoin and Ethereum are both cryptocurrencies, but they have different purposes...",
+        "Bitcoin remains the most widely known and valuable cryptocurrency..."
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "Any advice for Bitcoin beginners?",
+        "Tips for BTC newbies",
+        "How to start with Bitcoin?"
+      ],
+      "responses": [
+        "Start by researching and understanding how Bitcoin works...",
+        "Educate yourself, start with small investments, and use secure wallets."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you for your help",
+        "Thanks a lot",
+        "Appreciate your assistance"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have more questions."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I'm confused"
+      ],
+      "responses": [
+        "I'm sorry, I didn't get that. Could you please rephrase or ask another question?"
+      ]
+    }
+
+  ]
+}
